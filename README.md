@@ -1,2 +1,2 @@
 # The Swamp 
-Home of the frogs :frog:
+Home of the frogs 🐸
