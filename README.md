@@ -1,2 +1,2 @@
 # The Swamp
-Home of the frogs :)
+Home of the frogs
