@@ -6,4 +6,4 @@ Hub of the frogs 🐸
 
 <button> Games <button>
 
-Made by Slimyish
+Made by Slimyish and Sharkbite1024
