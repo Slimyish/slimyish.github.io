@@ -1,6 +1,5 @@
 # The Swamp
-Hub of the frogs 🐸
 
-<button> Games <Button>
-
-Made by Slimyish and Sharkbite1024
+Home of the frogs 🐸
+<button> Games
+Made by Sharkbite1024 and Slimyish
