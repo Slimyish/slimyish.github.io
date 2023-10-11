@@ -1,0 +1,21 @@
+from whoosh.index import create_in
+from whoosh.fields import *
+from whoosh.qparser import QueryParser
+
+# Define the schema
+schema = Schema(title=TEXT(stored=True), content=TEXT)
+
+# Create the index
+index = create_in("indexdir", schema)
+
+# Add some documents to the index
+writer = index.writer()
+writer.add_document(title=u"First document", content=u"This is the first document we've added!")
+writer.add_document(title=u"Second document", content=u"The second one is even more interesting!")
+writer.commit()
+
+# Query the index
+with index.searcher() as searcher:
+    query = QueryParser("content", index.schema).parse("first")
+    results = searcher.search(query)
+    print(results[0])
